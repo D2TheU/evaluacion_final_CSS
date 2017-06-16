@@ -81,23 +81,24 @@ h1 {
     text-align: left;
     background-color: #C6d5c5;
 }
-.footer_article>h2 {
-    margin-left:0;
+.footer_article>h2, .footer_article>p {
+    margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0.2em;
 }
-.footer_article>p {
-    margin-left:0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0.3em;
-}
 #contact_article {
     border-radius: 0 0 0 0;
 }
-#contact_mail{
+footer a {
     color: black;
+}
+.social_link{
+    text-decoration: none;
+}
+.social_icon{
+    width: 1em;
+    margin-right: 0.5em;
 }
 #copyright_article {
     border-radius: 0 0 10px 10px;
@@ -135,7 +136,7 @@ h1 {
     }
     .footer_article {
         width: 25%;
-        height: 9em;
+        height: 10em;
     }
     #contact_article {
         border-radius: 0 0 0 10px;
