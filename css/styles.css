@@ -33,7 +33,7 @@ h1 {
     width: 100%;
     margin: 0 0;
     text-align: center;
-    /*animation: wrapperTransition 1s;*/
+    animation: wrapperTransition 1s;
 }
 .image {
     box-shadow: 3px 3px #02010a;
@@ -89,7 +89,7 @@ h1 {
 
 /**********LANDSCAPE/PORTRAIT STYLES*******************************************/
 
-#landscape_gallery {
+section[id$="_gallery"] {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -187,7 +187,7 @@ footer a {
     }
     /******END INDEX ONLY STYLES******/
     /******LANDSCAPE/PORTRAIT STYLES******/
-    #landscape_gallery {
+    section[id$="_gallery"] {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
