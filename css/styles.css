@@ -188,7 +188,6 @@ footer a {
     /******END INDEX ONLY STYLES******/
     /******LANDSCAPE/PORTRAIT STYLES******/
     section[id$="_gallery"] {
-        display: flex;
         flex-flow: row wrap;
         align-items: center;
         background-color: #d5c75f;
